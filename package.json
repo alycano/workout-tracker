@@ -1,0 +1,22 @@
+{
+  "name": "workout-tracker-api",
+  "version": "1.0.0",
+  "description": "API para gestionar usuarios, entrenamientos y ejercicios",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Aly Santiago Cano",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
